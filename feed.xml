@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Resumo Diário de Notícias</title>
+    <link>https://github.com/SEU-USUARIO/podcast-rss</link>
+    <atom:link href="https://SEU-USUARIO.github.io/podcast-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Podcast automatizado com resumos diários de notícias.</description>
+    <language>pt-BR</language>
+    <copyright>2025 Resumo Diário</copyright>
+    <itunes:author>Marcelo Silva</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+
+    <item>
+      <title>Episódio de Boas Vindas</title>
+      <description>Primeiro episódio do podcast automatizado.</description>
+      <pubDate>Mon, 01 Dec 2025 10:00:00 GMT</pubDate>
+      <guid>https://SEU-BUCKET.com/podcast/bemvindo.mp3</guid>
+      <enclosure url="https://SEU-BUCKET.com/podcast/bemvindo.mp3" length="12345" type="audio/mpeg"/>
+    </item>
+
+  </channel>
+</rss>
