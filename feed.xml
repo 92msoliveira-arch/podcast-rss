@@ -5,20 +5,33 @@
 
   <channel>
     <title>Resumo Diário de Notícias</title>
-    <link>https://github.com/SEU-USUARIO/podcast-rss</link>
-    <atom:link href="https://SEU-USUARIO.github.io/podcast-rss/feed.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Link da página do repositório -->
+    <link>https://github.com/92msoliveira-arco/podcast-rss</link>
+
+    <!-- Link do próprio feed hospedado no GitHub Pages -->
+    <atom:link href="https://92msoliveira-arco.github.io/podcast-rss/feed.xml"
+               rel="self"
+               type="application/rss+xml" />
+
     <description>Podcast automatizado com resumos diários de notícias.</description>
     <language>pt-BR</language>
     <copyright>2025 Resumo Diário</copyright>
     <itunes:author>Marcelo Silva</itunes:author>
     <itunes:explicit>no</itunes:explicit>
 
+    <!-- EPISÓDIO EXEMPLO (você pode trocar depois) -->
     <item>
-      <title>Episódio de Boas Vindas</title>
-      <description>Primeiro episódio do podcast automatizado.</description>
+      <title>Episódio de Boas-vindas</title>
+      <description>Primeiro episódio do podcast automatizado de resumos de notícias.</description>
       <pubDate>Mon, 01 Dec 2025 10:00:00 GMT</pubDate>
-      <guid>https://SEU-BUCKET.com/podcast/bemvindo.mp3</guid>
-      <enclosure url="https://SEU-BUCKET.com/podcast/bemvindo.mp3" length="12345" type="audio/mpeg"/>
+
+      <!-- URL de um MP3 QUALQUER só para teste.
+           Depois o n8n vai passar a colocar aqui o áudio gerado. -->
+      <guid>https://example.com/podcast/bemvindo.mp3</guid>
+      <enclosure url="https://example.com/podcast/bemvindo.mp3"
+                 length="12345"
+                 type="audio/mpeg" />
     </item>
 
   </channel>
