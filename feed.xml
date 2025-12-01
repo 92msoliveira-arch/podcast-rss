@@ -7,10 +7,10 @@
     <title>Resumo Diário de Notícias</title>
 
     <!-- Link da página do repositório -->
-    <link>https://github.com/92msoliveira-arco/podcast-rss</link>
+    <link>https://github.com/92msoliveira-arch/podcast-rss</link>
 
     <!-- Link do próprio feed hospedado no GitHub Pages -->
-    <atom:link href="https://92msoliveira-arco.github.io/podcast-rss/feed.xml"
+    <atom:link href="https://92msoliveira-arch.github.io/podcast-rss/feed.xml"
                rel="self"
                type="application/rss+xml" />
 
