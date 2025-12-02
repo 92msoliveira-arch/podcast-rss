@@ -20,14 +20,14 @@
     <item>
         <title>Resumo de notícias</title>
         <description>Seu resumo diário de notícias atualizado automaticamente pelo n8n.</description>
-        <pubDate>Tue, 02 Dec 2025 13:03:12 GMT</pubDate>
+        <pubDate>Tue, 02 Dec 2025 14:47:08 GMT</pubDate>
 
         <enclosure 
             url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-.mp3" 
             type="audio/mpeg" 
             length="12345" />
 
-        <guid isPermaLink="false">1764680592399</guid>
+        <guid isPermaLink="false">1764686828384</guid>
     </item>
 
 </channel>
