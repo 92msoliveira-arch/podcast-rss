@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <channel>
-    <title>Resumo Diário de Notícias</title>
-    <link>https://github.com/92msoliveira-arch/podcast-rss</link>
-    <description>Feed gerado automaticamente via n8n + GitHub</description>
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+
+    <title>Podcast Resumo Notícias</title>
+    <link>https://92msoliveira-arch.github.io/podcast-rss/</link>
+    <language>pt-BR</language>
+
+    <itunes:author>Marcelo da Silva Oliveira</itunes:author>
+    <itunes:owner>
+        <itunes:name>Marcelo da Silva Oliveira</itunes:name>
+        <itunes:email>92.msoliveira@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Noticas%20e%20Negocios%20capa.png" />
+
+    <description>Resumo diário das principais notícias.</description>
 
     <item>
-      <title>Episódio de teste</title>
-      <description>Esse é só um teste de atualização automática do feed.xml.</description>
-      <pubDate>Tue, 02 Dec 2025 12:23:23 GMT</pubDate>
-      <enclosure url="https://exemplo.com/audio-teste.mp3" length="12345" type="audio/mpeg"/>
-      <guid>teste-1764678203</guid>
+        <title>Resumo de notícias</title>
+        <description>Seu resumo diário de notícias atualizado automaticamente pelo n8n.</description>
+        <pubDate>Tue, 02 Dec 2025 13:03:12 GMT</pubDate>
+
+        <enclosure 
+            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-.mp3" 
+            type="audio/mpeg" 
+            length="12345" />
+
+        <guid isPermaLink="false">1764680592399</guid>
     </item>
-  </channel>
+
+</channel>
 </rss>
