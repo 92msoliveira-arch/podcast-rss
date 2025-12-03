@@ -1,115 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-<channel>
+  <channel>
 
-    <title>Podcast Resumo Notícias</title>
+    <title>Giro de Notícias em 5 Minutos</title>
     <link>https://92msoliveira-arch.github.io/podcast-rss/</link>
     <language>pt-BR</language>
 
+    <description>Um resumo inteligente e direto das principais notícias do dia. Economia, política, tecnologia e acontecimentos importantes explicados de forma simples e rápida. Atualizado automaticamente todos os dias.</description>
+
     <itunes:author>Marcelo da Silva Oliveira</itunes:author>
     <itunes:owner>
-        <itunes:name>Marcelo da Silva Oliveira</itunes:name>
-        <itunes:email>92.msoliveira@gmail.com</itunes:email>
+      <itunes:name>Marcelo da Silva Oliveira</itunes:name>
+      <itunes:email>92.msoliveira@gmail.com</itunes:email>
     </itunes:owner>
 
-    <itunes:image href="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Noticas%20e%20Negocios%20capa.png" />
+    <itunes:image href="URL_DA_CAPA_NOVA.png" />
+    <itunes:category text="News" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <lastBuildDate>Wed, 03 Dec 2025 09:01:15 GMT</lastBuildDate>
 
-    <description>Resumo diário das principais notícias.</description>
-
-    <!-- ================= EPISÓDIO 1 ================= -->
+    <!-- AQUI O n8n INSERE OS EPISÓDIOS DINÂMICOS -->
+    <!-- EXEMPLO DE UM ITEM: -->
     <item>
-        <title>Resumo de notícias</title>
-        <description>Seu resumo diário de notícias atualizado automaticamente pelo n8n.</description>
-        <pubDate>Tue, 02 Dec 2025 14:47:08 GMT</pubDate>
-
-        <enclosure 
-            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-.mp3"
-            type="audio/mpeg"
-            length="0" />
-
-        <guid isPermaLink="false">1764686828384</guid>
+      <title><![CDATA[Resumo de Notícias – 03/12/2025]]></title>
+      <description><![CDATA[Seu resumo diário das principais notícias do dia.]]></description>
+      <pubDate>Wed, 03 Dec 2025 09:01:15 GMT</pubDate>
+      <enclosure 
+        url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3"
+        length="1234567"
+        type="audio/mpeg" />
+      <guid isPermaLink="false">resumo-2025-12-03-090115</guid>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>
 
-    <!-- ================= EPISÓDIO 2 ================= -->
-    <item>
-        <title>Resumo de Notícias – 02/12/2025</title>
-        <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-        <pubDate>Tue, 02 Dec 2025 18:07:03 GMT</pubDate>
-
-        <enclosure 
-            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-180703.mp3"
-            length="0"
-            type="audio/mpeg" />
-
-        <guid isPermaLink="false">resumo-2025-12-02-180703</guid>
-    </item>
-
-    <!-- ================= EPISÓDIO 3 ================= -->
-    <item>
-        <title>Resumo de Notícias – 02/12/2025</title>
-        <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-        <pubDate>Tue, 02 Dec 2025 18:28:45 GMT</pubDate>
-
-        <enclosure 
-            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-182845.mp3"
-            length="0"
-            type="audio/mpeg" />
-
-        <guid isPermaLink="false">resumo-2025-12-02-182845</guid>
-    </item>
-
-    <!-- ================= EPISÓDIO 4 ================= -->
-    <item>
-        <title>Resumo de Notícias – 02/12/2025</title>
-        <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-        <pubDate>Tue, 02 Dec 2025 20:00:05 GMT</pubDate>
-
-        <enclosure 
-            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-200005.mp3"
-            length="0"
-            type="audio/mpeg" />
-
-        <guid isPermaLink="false">resumo-2025-12-02-200005</guid>
-    </item>
-
-    <!-- ================= EPISÓDIO NOVO (OK) ================= -->
-    <item>
-        <title><![CDATA[Resumo de Notícias – 02/12/2025]]></title>
-        <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-        <pubDate>Tue, 02 Dec 2025 20:16:52 GMT</pubDate>
-
-        <enclosure 
-            url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-201652.mp3"
-            length="0"
-            type="audio/mpeg" />
-
-        <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-201652.mp3</guid>
-    </item>
-
-
-  <item>
-    <title><![CDATA[Resumo de Notícias – 02/12/2025]]></title>
-    <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-    <pubDate>Tue, 02 Dec 2025 21:44:47 GMT</pubDate>
-    <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-214447.mp3" length="0" type="audio/mpeg" />
-    <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-214447.mp3</guid>
-  </item>
-
-  <item>
-    <title><![CDATA[Resumo de Notícias – 02/12/2025]]></title>
-    <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-    <pubDate>Tue, 02 Dec 2025 22:56:17 GMT</pubDate>
-    <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-225617.mp3" length="0" type="audio/mpeg" />
-    <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-225617.mp3</guid>
-  </item>
-
-  <item>
-    <title><![CDATA[Resumo de Notícias – 03/12/2025]]></title>
-    <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
-    <pubDate>Wed, 03 Dec 2025 09:01:15 GMT</pubDate>
-    <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3" length="0" type="audio/mpeg" />
-    <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3</guid>
-  </item>
-</channel>
+  </channel>
 </rss>
