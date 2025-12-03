@@ -103,5 +103,13 @@
     <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-225617.mp3" length="0" type="audio/mpeg" />
     <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-02-225617.mp3</guid>
   </item>
+
+  <item>
+    <title><![CDATA[Resumo de Notícias – 03/12/2025]]></title>
+    <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
+    <pubDate>Wed, 03 Dec 2025 09:01:15 GMT</pubDate>
+    <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3" length="0" type="audio/mpeg" />
+    <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3</guid>
+  </item>
 </channel>
 </rss>
