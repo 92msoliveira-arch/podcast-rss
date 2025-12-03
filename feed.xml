@@ -29,7 +29,7 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 03 Dec 2025 09:01:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 12:00:51 GMT</lastBuildDate>
 
     <!-- EPISÓDIO EXEMPLO (NECESSÁRIO PARA O SPOTIFY ACEITAR) -->
     <item>
@@ -46,5 +46,14 @@
         <itunes:episodeType>full</itunes:episodeType>
     </item>
 
+
+  <item>
+    <title><![CDATA[Giro de Notícias – 03/12/2025]]></title>
+    <description><![CDATA[Sem conteúdo de notícias para hoje.]]></description>
+    <pubDate>Wed, 03 Dec 2025 12:00:51 GMT</pubDate>
+    <enclosure url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-120051.mp3" length="1" type="audio/mpeg" />
+    <guid isPermaLink="false">https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-120051.mp3</guid>
+    <itunes:episodeType>full</itunes:episodeType>
+  </item>
 </channel>
 </rss>
