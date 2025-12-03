@@ -1,39 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-  <channel>
 
+<channel>
+
+    <!-- INFORMAÇÕES DO PODCAST -->
     <title>Giro de Notícias em 5 Minutos</title>
     <link>https://92msoliveira-arch.github.io/podcast-rss/</link>
     <language>pt-BR</language>
 
-    <description>Um resumo inteligente e direto das principais notícias do dia. Economia, política, tecnologia e acontecimentos importantes explicados de forma simples e rápida. Atualizado automaticamente todos os dias.</description>
+    <description>
+        Um resumo inteligente e direto das principais notícias do dia.
+        Economia, política, tecnologia e acontecimentos importantes explicados
+        de forma simples e rápida. Atualizado automaticamente todos os dias.
+    </description>
 
     <itunes:author>Marcelo da Silva Oliveira</itunes:author>
+
     <itunes:owner>
-      <itunes:name>Marcelo da Silva Oliveira</itunes:name>
-      <itunes:email>92.msoliveira@gmail.com</itunes:email>
+        <itunes:name>Marcelo da Silva Oliveira</itunes:name>
+        <itunes:email>92.msoliveira@gmail.com</itunes:email>
     </itunes:owner>
 
-    <itunes:image href="URL_DA_CAPA_NOVA.png" />
-    <itunes:category text="News" />
+    <!-- CAPA DO PODCAST (AGORA CORRETA) -->
+    <itunes:image href="https://github.com/92msoliveira-arch/podcast-rss/blob/main/Resulmo%20de%20Noticias.png?raw=true"/>
+
+    <!-- CONFIGURAÇÕES OBRIGATÓRIAS DO SPOTIFY -->
+    <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <lastBuildDate>Wed, 03 Dec 2025 09:01:15 GMT</lastBuildDate>
 
-    <!-- AQUI O n8n INSERE OS EPISÓDIOS DINÂMICOS -->
-    <!-- EXEMPLO DE UM ITEM: -->
+    <!-- EPISÓDIO EXEMPLO (NECESSÁRIO PARA O SPOTIFY ACEITAR) -->
     <item>
-      <title><![CDATA[Resumo de Notícias – 03/12/2025]]></title>
-      <description><![CDATA[Seu resumo diário das principais notícias do dia.]]></description>
-      <pubDate>Wed, 03 Dec 2025 09:01:15 GMT</pubDate>
-      <enclosure 
-        url="https://pub-c93b1dce3c86439592ac81ff04cdbef7.r2.dev/resumo-noticias-2025-12-03-090115.mp3"
-        length="1234567"
-        type="audio/mpeg" />
-      <guid isPermaLink="false">resumo-2025-12-03-090115</guid>
-      <itunes:episodeType>full</itunes:episodeType>
+        <title><![CDATA[Resumo de Notícias – Exemplo para Spotify]]></title>
+        <description><![CDATA[Este é um episódio temporário apenas para o Spotify validar o feed.]]></description>
+        <pubDate>Wed, 03 Dec 2025 09:01:15 GMT</pubDate>
+
+        <enclosure
+            url="https://example.com/audio.mp3"
+            length="12345"
+            type="audio/mpeg"/>
+
+        <guid isPermaLink="false">episodio-exemplo-spotify</guid>
+        <itunes:episodeType>full</itunes:episodeType>
     </item>
 
-  </channel>
+</channel>
 </rss>
