@@ -12,8 +12,15 @@
       <itunes:email>92.msoliveira@gmail.com</itunes:email>
     </itunes:owner>
 
-    <!-- Capa do podcast (já enviada para o GitHub) -->
-    <itunes:image href="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Resumo%20de%20Noticias.png" />
+    <!-- Capa do podcast (padrão RSS) -->
+    <image>
+      <url>https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Resulmo%20de%20Noticias.png</url>
+      <title>Giro de Notícias em 5 Minutos</title>
+      <link>https://92msoliveira-arch.github.io/podcast-rss/</link>
+    </image>
+
+    <!-- Capa do podcast para iTunes/Spotify -->
+    <itunes:image href="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Resulmo%20de%20Noticias.png" />
 
     <!-- Categoria básica de notícias -->
     <itunes:category text="News">
@@ -26,9 +33,9 @@
     <item>
       <title>Giro de Notícias - 04/12/2025</title>
       <description>Resumo das principais notícias do dia em até 5 minutos.</description>
-      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-124857.mp3" length="1691040" type="audio/mpeg" />
-      <guid isPermaLink="false">https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-124857.mp3</guid>
-      <pubDate>Thu, 04 Dec 2025 12:48:58 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-133524.mp3" length="3668160" type="audio/mpeg" />
+      <guid isPermaLink="false">https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-133524.mp3</guid>
+      <pubDate>Thu, 04 Dec 2025 13:35:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
