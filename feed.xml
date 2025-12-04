@@ -2,7 +2,7 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Giro de Notícias em 5 Minutos</title>
-    <link>https://92msoliveira-arch.github.io/podcast-rss</link>
+    <link>https://92msoliveira-arch.github.io/podcast-rss/</link>
     <language>pt-BR</language>
     <description>Um resumo inteligente e direto das principais notícias do dia. Economia, política, tecnologia e acontecimentos importantes explicados de forma simples e rápida. Atualizado automaticamente todos os dias.</description>
 
@@ -12,12 +12,23 @@
       <itunes:email>92.msoliveira@gmail.com</itunes:email>
     </itunes:owner>
 
+    <!-- Capa do podcast (já enviada para o GitHub) -->
+    <itunes:image href="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/Resumo%20de%20Noticias.png" />
+
+    <!-- Categoria básica de notícias -->
+    <itunes:category text="News">
+      <itunes:category text="Daily News" />
+    </itunes:category>
+
+    <itunes:explicit>false</itunes:explicit>
+
+    <!-- EPISÓDIO MAIS RECENTE (gerado pelo fluxo) -->
     <item>
-      <title>Giro de Notícias - Thu, 04 Dec 2025 12:20:22 GMT</title>
-      <description>Resumo das principais notícias do dia.</description>
-      <pubDate>Thu, 04 Dec 2025 12:20:22 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-121253.mp3" length="0" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-121253.mp3</guid>
+      <title>Giro de Notícias - 04/12/2025</title>
+      <description>Resumo das principais notícias do dia em até 5 minutos.</description>
+      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-124857.mp3" length="1691040" type="audio/mpeg" />
+      <guid isPermaLink="false">https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-04-124857.mp3</guid>
+      <pubDate>Thu, 04 Dec 2025 12:48:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
