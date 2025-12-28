@@ -32,6 +32,13 @@
     <!-- EPISÓDIOS (NOVO NO TOPO) -->
 
     <item>
+      <title>Giro de Notícias - 28/12/2025</title>
+      <description>Resumo das principais notícias do dia em até 5 minutos.</description>
+      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-28-090107.mp3" length="3346080" type="audio/mpeg" />
+      <guid isPermaLink="false">https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-28-090107.mp3</guid>
+      <pubDate>Sun, 28 Dec 2025 09:01:09 GMT</pubDate>
+    </item>
+<item>
       <title>Giro de Notícias - 26/12/2025</title>
       <description>Resumo das principais notícias do dia em até 5 minutos.</description>
       <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2025-12-26-090121.mp3" length="4604640" type="audio/mpeg" />
