@@ -32,6 +32,13 @@
     <!-- EPISÓDIOS (NOVO NO TOPO) -->
 
     <item>
+      <title>Giro de Notícias - 01/03/2026</title>
+      <description>Resumo das principais notícias do dia em até 5 minutos.</description>
+      <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2026-03-01-090131.mp3" length="5009760" type="audio/mpeg" />
+      <guid isPermaLink="false">https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2026-03-01-090131.mp3</guid>
+      <pubDate>Sun, 01 Mar 2026 09:01:34 GMT</pubDate>
+    </item>
+<item>
       <title>Giro de Notícias - 28/02/2026</title>
       <description>Resumo das principais notícias do dia em até 5 minutos.</description>
       <enclosure url="https://raw.githubusercontent.com/92msoliveira-arch/podcast-rss/main/audio/resumo-noticias-2026-02-28-090139.mp3" length="5292480" type="audio/mpeg" />
